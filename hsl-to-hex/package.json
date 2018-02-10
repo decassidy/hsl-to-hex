@@ -1,0 +1,25 @@
+{
+  "name": "hsl-to-hex",
+  "version": "1.0.0",
+  "description": "This is a module that changes hsl (hue, saturation and luminosity) to CSS hex color values (e.g #000000).",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap --cov test",
+    "lint": "./node_modules/.bin/eslint index.js"
+  },
+  "author": "Derrick Cassidy email <decassidy@icloud.com>",
+  "license": "ISC",
+  "dependencies": {
+    "hsl-to-rgb-for-reals": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.14.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "standard": "^10.0.3",
+    "tap": "^11.0.1"
+  }
+}

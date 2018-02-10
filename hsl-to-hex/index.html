@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div>
+      <ul id="mylist">
+        <li class="odd"><h2>one</h2></li>
+        <li class="even"><h2>two</h2></li>
+        <li class="odd"><h2>three</h2></li>
+        <li class="even"><h2>four</h2></li>
+        <li class="odd"><h2>five</h2></li>
+      </ul>
+    </div>
+    <script type="text/javascript">
+      // Add to DOM
+      // let newListItem = document.createElement('li');
+      // let newListItemText = document.createTextNode('six');
+      // newListItem.appendChild(newListItemText);
+      // let newListItemPosition = document.getElementById('mylist');
+      // newListItemPosition.appendChild(newListItem);
+
+      // Delete from DOM
+      // let deleteListItem = document.getElementsByTagName('li')[1];
+      // let deleteListItemContainer = deleteListItem.parentNode;
+      // deleteListItemContainer.removeChild(deleteListItem);
+
+      // Edit item in DOM
+      document.getElementById('mylist').innerHTML = '<h1>No more list!!!</h1>';
+    </script>
+  </body>
+
+</html>
